@@ -6,16 +6,17 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type=image/png href="cv.png"/>
   <link rel="stylesheet" href="mesicones/fontello.css"/>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
 </head>
 <body>
 
 <header>
   <div class='status'>
   <div class="navigation">
-    <li><a href=""> Profil </a></li>
-    <li><a href="">Projets</a></li>
-    <li><a href="">Compétences </a></li>
-    <li><a href="">Contacts </a></li>
+    <li><a href="#nav1"> Profil </a></li>
+    <li><a href="#nav2">Expériences</a></li>
+    <li><a href="#nav3">Compétences </a></li>
+    <li><a href="#contacts">Contacts </a></li>
   </div>
   </div>
 
@@ -24,7 +25,7 @@
      <img class="cercle" src=img/moiredim.jpg>
    </div>
  </div>
-
+</header>
 <div class='nomprenom'>
  <div class='nom'>
    <li>CAUVEZ THIMOTY</li>
@@ -32,28 +33,34 @@
  </div>
  </div>
 
-<div class='nav1'>
-  <li><i class="icon-user"></i>Mon Profil:</li>
+<div id='nav1'>
+  <div>  <i class="icon-user"></i><p>Mon Profil:</p>
+</div>
 <p>Je m'appelle Thimoty Cauvez j'ai
-23ans. Actuellement en formation à Pop School et j'ai
-acquis pas mal de compétences en Html et CSS,et je compte bien
-approfondir mes connaissances en Javascript,Ruby et RubyOnRails.  </p>
+23ans. Passionné d'informatique et de jeux videos, j'ai
+décidé d'intégrer la PopSchool afin d'approfondir mes connaissances :
+Html, Css, JavaScript, Ruby, RubyOnRails.
+Mon souhait est de créer à terme mon entreprise de création de site internet
+pour des Sociétés ou Particuliers . </p>
 </div>
 
-<div class='nav2'>
-  <li><i class="icon-docs"></i>Mes Projets:</li>
-<p>  Je m'appelle Thimoty Cauvez j'ai
-23ans. Actuellement en formation à Pop School et j'ai
-acquis pas mal de compétences en Html et CSS,et je compte bien
-approfondir mes connaissances en Javascript,Ruby et RubyOnRails.
+<div id='nav2'>
+  <div><i class="icon-docs"></i><p>Mes Expèriences:</p></div>
+<p>  Après l'obtention de mon BEPC, je me suis orienter vers un CAP AEM (agent
+d'entreposage et messagerie)en alternance que j'ai obtenu.
+Je me suis ensuite diriger vers la soudure, j'ai tout d'abord dû passé mes licenses:
+TIG,ARC,SEMI-AUTO.Suite a l'obtention de mes licenses j'ai travaillé
+pour l'entreprise MUNOZ durant 1an, puis j'ai du arrêter ma profession
+dû a quelques petits soucis de santé.
+
  </p>
 </div>
 
-<div class='nav3'>
-  <li><i class="icon-wrench"></i>Mes Compétences:</li>
+<div id='nav3'>
+  <div><i class="icon-wrench"></i><p>Mes Compétences:</p></div>
 </div>
 
-<div class='nav4'>
+
   <div class='tableaucomp'>
     <div class='tableaucomp1'>
       <p>HTML5:</p>
@@ -74,3 +81,12 @@ approfondir mes connaissances en Javascript,Ruby et RubyOnRails.
         <progress class="avancement1" value="40" max="100"></progress>
     </div>
   </div>
+
+  <div id='contacts'>
+  <div> <i class=icon-facebook-squared></i><p>Contacts:</p> </div>
+</div>
+<div class='logo'>
+  <i class="fa fa-mobile"></i><p>06-68-00-47-83</p>
+  <i class="fa fa-facebook-square"></i>
+  <i class="fa fa-github-square"></i><p>https://github.com/Darkils</p>
+</div>
