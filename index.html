@@ -2,30 +2,33 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Présentation CV</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="icon" type=image/png href="cv.png"/>
   <link rel="stylesheet" href="mesicones/fontello.css"/>
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-  <div class='status'>
-  <div class="navigation">
-    <li><a href="#nav1"> Profil </a></li>
-    <li><a href="#nav2">Expériences</a></li>
-    <li><a href="#nav3">Compétences </a></li>
-    <li><a href="#contacts">Contacts </a></li>
+<div class="container">
+<header class='row'>
+  <div  class='status'>
+    <div class="navigation">
+      <div class='col-md-3 col-xs-12'><a href="#nav1"> Profil </a></div>
+      <div class='col-md-3 col-xs-12'><a href="#nav2">Expériences</a></div>
+      <div class='col-md-3 col-xs-12'><a href="#nav3">Compétences </a></div>
+      <div class='col-md-3 col-xs-12'><a href="#contacts">Contacts </a></div>
   </div>
   </div>
+</header>
 
- <div class='blockphotos'>
-   <div class='blockphotos2'>
-     <img class="cercle" src=img/moiredim.jpg>
+ <div class='row'>
+   <div class="col-md-3 col-md-offset-4 col-xs-3">
+     <img class="img-responsive img-circle" src=img/moiredim.jpg>
    </div>
  </div>
-</header>
+
 <div class='nomprenom'>
  <div class='nom'>
    <li>CAUVEZ THIMOTY</li>
@@ -64,21 +67,63 @@ dû a quelques petits soucis de santé.
   <div class='tableaucomp'>
     <div class='tableaucomp1'>
       <p>HTML5:</p>
-      <progress class="avancement" value="55" max="100"></progress>
+      <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:80%">
+    80%
+  </div>
+</div>
       <p>CSS3:</p>
-        <progress class="avancement1" value="75" max="100"></progress>
+      <div class="progress">
+<div class="progress-bar" role="progressbar" aria-valuenow="70"
+aria-valuemin="0" aria-valuemax="100" style="width:80%">
+  80%
+</div>
+</div>
       <p>JavaScript:</p>
-<progress class="avancement2" value="10" max="100"></progress>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+        aria-valuemin="0" aria-valuemax="100" style="width:20%">
+          20%
+        </div>
+      </div>
 <p>Ruby</p>
-<progress class="avancement3" value="0" max="100"></progress>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:100%">
+    En cours d'apprentissage
+  </div>
+</div>
 <p>RubyOnRails</p>
-<progress class="avancement4" value="0" max="100"></progress>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:100%">
+    En cours d'apprentissage
+  </div>
+</div>
      </div>
       <div class='tableaucomp1'>
         <p>GIT:</p>
-        <progress class="avancement5" value="70" max="100"></progress>
+        <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+    70%
+  </div>
+</div>
+<p>BootStrap:</p>
+<div class="progress">
+<div class="progress-bar" role="progressbar" aria-valuenow="70"
+aria-valuemin="0" aria-valuemax="100" style="width:20%">
+20%
+</div>
+</div>
         <p>Creativité:</p>
-        <progress class="avancement1" value="40" max="100"></progress>
+        <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:65%">
+    65%
+  </div>
+</div>
     </div>
   </div>
 
@@ -90,3 +135,6 @@ dû a quelques petits soucis de santé.
   <i class="fa fa-facebook-square"></i>
   <i class="fa fa-github-square"></i><p>https://github.com/Darkils</p>
 </div>
+</div>
+</body>
+</html>
